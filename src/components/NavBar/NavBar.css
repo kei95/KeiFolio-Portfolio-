@@ -1,0 +1,43 @@
+.NavBtn {
+    width: 50%;
+    border-bottom: 5px solid blue;
+    transition-duration: 0.3s;
+}
+
+.NavBtnIninit {
+    width: 0%;
+    content: "";
+    border-bottom: 5px solid blue;
+    transition-duration: 0.3s;
+}
+
+
+.navParent {
+  width: 100%;
+  height: 5rem;
+  transition: all .5s;
+}
+
+.navParentTop {
+  height:5rem;
+}
+
+.NavWrapp {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all .5s;
+}
+
+.NavWrappTop {
+  height: 0%;
+  transition: all .5s;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.NavBtnIninit:hover {
+    width: 50%
+}
+

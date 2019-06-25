@@ -1,0 +1,127 @@
+.MyselfCard {
+    background-color: #f5f5f5;
+}
+
+.ImageMyself {
+    align-items: flex-start;
+    display: inline-block;
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+}
+
+.Cards-Container{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 3rem;
+}
+
+.MyselfCard{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    display: inline-block;
+}
+
+.box-shadow{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 4rem;
+}
+
+/* .contant-left{  
+}
+
+.contant-right {
+} */
+
+.myself-pic-container {
+    align-items: flex-start;
+    display: inline-block;
+}
+
+.Status {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.Status-detail {
+    font-size: 1rem;
+}
+
+.Photo-container {
+    align-content: center;
+}
+
+.Skills {
+    margin-bottom: 1.5rem;
+}
+
+.SkillName {
+    font-size: 1rem;
+}
+
+.progerssbar {
+    margin-bottom: 1rem;
+}
+
+.Title-right {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.Border-top {
+    margin: auto;
+    width: 30%;
+    border-top: 4px solid blue;
+    margin-bottom: 5%;
+}
+
+.Border {
+    width: 20%;
+    border-top: 2px solid blue;
+    margin-bottom: 5%;
+}
+
+.AboutMe {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.Border-Ability{
+    display: inline-block;
+    margin-top: 0;
+    width: 5rem;
+    border-top: 5px solid blue;
+    margin-bottom: 5%;
+}
+
+.Title-Ability {
+    margin: auto;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+}
+
+.Discription-Ability {
+    font-style: italic;
+    color: #4e4e4e;
+}
+
+.SkillTitle {
+    padding-left: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.colLonger {
+    right: 1.3rem;
+}
+
+.SkillTitleJs {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.skillsWrapper {
+    margin-top: 1.3rem;
+}

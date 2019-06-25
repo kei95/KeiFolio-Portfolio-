@@ -1,0 +1,20 @@
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* .title {
+
+} */
+
+.jumbotron-container {
+    opacity: 1;
+}
+
+.ThirdPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
