@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab3a42e8.chunk.css",
+    "main.js": "/static/js/main.129e147d.chunk.js",
+    "main.js.map": "/static/js/main.129e147d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.363e6710.chunk.css": "/static/css/2.363e6710.chunk.css",
+    "static/js/2.38f04d7b.chunk.js": "/static/js/2.38f04d7b.chunk.js",
+    "static/js/2.38f04d7b.chunk.js.map": "/static/js/2.38f04d7b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4c8b1c761a3def153a326a23bc62c499.js": "/precache-manifest.4c8b1c761a3def153a326a23bc62c499.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.363e6710.chunk.css.map": "/static/css/2.363e6710.chunk.css.map",
+    "static/css/main.ab3a42e8.chunk.css.map": "/static/css/main.ab3a42e8.chunk.css.map",
+    "static/media/Cards_myself.png": "/static/media/Cards_myself.d91db964.png",
+    "static/media/Cards_pic1.jpg": "/static/media/Cards_pic1.e494c7e7.jpg",
+    "static/media/Cards_pic2.jpg": "/static/media/Cards_pic2.ea9be5e8.jpg",
+    "static/media/Cards_pic3.jpg": "/static/media/Cards_pic3.5b26c219.jpg",
+    "static/media/Logo-kei.jpg": "/static/media/Logo-kei.94dd608c.jpg",
+    "static/media/MyArt1.jpg": "/static/media/MyArt1.97daed86.jpg",
+    "static/media/MyArt2.jpg": "/static/media/MyArt2.8fe812a8.jpg",
+    "static/media/MyArt3.jpeg": "/static/media/MyArt3.fc04855f.jpeg",
+    "static/media/LoadingPage.css": "/static/media/Portfolio-Pic.7411f708.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f14c3b2f.ttf"
+  }
+}
