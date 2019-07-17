@@ -3,7 +3,9 @@ import reactDOM from 'react-dom';
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ContactForm.css';
-import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope,  } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithubAlt } from "@fortawesome/free-brands-svg-icons"
+
 
 interface Props{
   getOffsetsFromSctions: any;
@@ -44,26 +46,24 @@ this.props.getOffsetsFromSctions(rect.offsetTop)
                   </Col>
 
                   <Col className="contant-right" md={6}>
+                    <Row>
                     <div className="Content-right">
                       <h1 className="Title-Left"> Get in Touch </h1>
                       <div className="Border" />
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet?
-          Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
-                      <div className="address" style={{ display: 'flex', alignItems: 'center', marginTop: '2%' }}>
-                        <FontAwesomeIcon className="icons" icon={faMapMarkerAlt} style={{ color: 'blue', fontSize: '15', marginRight: '15' }} />
-                        <span>2409 BIDWELL ST VANCOUVER BC V6G 2K8</span>
-                      </div>
-                      <div className="address" style={{ display: 'flex', alignItems: 'center', marginTop: '2%' }}>
-                        <FontAwesomeIcon className="icons" icon={faPhone} style={{ color: 'blue', fontSize: '15', marginRight: '15' }} />
-                        <span>(604) 356-1881</span>
-                      </div>
-                      <div className="address" style={{ display: 'flex', alignItems: 'center', marginTop: '2%' }}>
-                        <FontAwesomeIcon className="icons" icon={faEnvelope} style={{ color: 'blue', fontSize: '15', marginRight: '15' }} />
-                        <span>kei0613shine.star@gmail.com</span>
-                      </div>
+                      <p className="scription">Thank you for leading through my portfolio page until the end. 
+                      I would love to connect with you if you were interested.
+                      You can follow me on Github, LinkedIn or send Email or message me with the link on the left side!</p>
+                      <Col xs={6}>
+                        <a href="https://www.linkedin.com/in/kei-yamashita-075164178/">
+                        <FontAwesomeIcon  className="icons" icon={faLinkedin} style={{ color: 'blue', fontSize: '30', marginRight: '30' }} />
+                        </a>
+                        <a href="https://github.com/kei95">
+                        <FontAwesomeIcon className="icons" icon={faGithubAlt} style={{ color: 'blue', fontSize: '30', marginRight: '30' }} />
+                        </a>
+                        <FontAwesomeIcon className="icons" icon={faEnvelope} style={{ color: 'blue', fontSize: '30', marginRight: '30' }} />
+                      </Col>
                     </div>
+                    </Row>
                   </Col>
                 </Row>
               </div>

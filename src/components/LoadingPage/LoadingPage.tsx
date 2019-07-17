@@ -3,10 +3,7 @@ import {Row, Col, Image} from 'react-bootstrap';
 import Logo from '../../Logo-kei.jpg';
 import './LoadingPage.css';
 import {Animated} from 'react-animated-css';
-import { any, number } from "prop-types";
 import { Redirect } from "react-router";
-import  MainPage from '../../MainPage'
-import { NavLink } from "react-router-dom";
 
 interface Props {
 

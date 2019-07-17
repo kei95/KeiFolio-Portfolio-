@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Row, Col, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  } from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { Navbar, Nav } from 'react-bootstrap';
 import './NavBar.css';
 import { Animated } from 'react-animated-css';
 

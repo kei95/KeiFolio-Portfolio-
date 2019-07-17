@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import reactDOM from 'react-dom';
 import './FirstPage.css';
 import { Row, Col } from 'react-bootstrap';
-import PropTypes from 'prop-types';
 import { Animated } from 'react-animated-css';
 
 interface Props {
@@ -10,9 +9,7 @@ interface Props {
 }
 
 class FirstPage extends Component<Props> {
-    constructor(props: Props) {
-        super(props);
-    }
+
 
     componentDidMount() {
         var rect = reactDOM.findDOMNode(this)

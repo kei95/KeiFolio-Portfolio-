@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import reactDOM from 'react-dom';
 import './Cards.css';
-import { Row, Col, Card, CardDeck, Image, ProgressBar } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 import Card4 from '../../Cards_myself.png';
 import IconHtml from './Icons/Icon-html.png';
 import IconCss from './Icons/Icon-css.png';
