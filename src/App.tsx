@@ -12,9 +12,9 @@ class App extends Component<Props>{
 
   render(){
     return(
-      <Router >
+      <Router basename="https://kei95.github.io/KeiFolio-Portfolio-">
         <Route exact  path="/MainPage" component={MainPage} />
-        <Route  path="https://kei95.github.io/KeiFolio-Portfolio-/" component={LoadingPage} />
+        <Route exact  path="/" component={LoadingPage} />
       </Router>
     )}
 }
