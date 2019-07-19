@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37b11a6725d8467f29e36b682a06ed7b",
+    "revision": "201f1f4d158f2c5563a87aab9ebf95ce",
     "url": "/KeiFolio-Portfolio-/index.html"
   },
   {
-    "revision": "cfea0c5be25d42aea647",
+    "revision": "31615e49d9211cca0fd1",
     "url": "/KeiFolio-Portfolio-/static/css/2.65f232cb.chunk.css"
   },
   {
-    "revision": "c3a7140de0ffc88247f0",
-    "url": "/KeiFolio-Portfolio-/static/css/main.2effa050.chunk.css"
+    "revision": "ab3b56d965cacfd7007f",
+    "url": "/KeiFolio-Portfolio-/static/css/main.edc9fd8e.chunk.css"
   },
   {
-    "revision": "cfea0c5be25d42aea647",
-    "url": "/KeiFolio-Portfolio-/static/js/2.e723132b.chunk.js"
+    "revision": "31615e49d9211cca0fd1",
+    "url": "/KeiFolio-Portfolio-/static/js/2.b8066ce2.chunk.js"
   },
   {
-    "revision": "c3a7140de0ffc88247f0",
-    "url": "/KeiFolio-Portfolio-/static/js/main.cda5421f.chunk.js"
+    "revision": "ab3b56d965cacfd7007f",
+    "url": "/KeiFolio-Portfolio-/static/js/main.d94644eb.chunk.js"
   },
   {
     "revision": "c2d298294244d34b70d3",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b26c219cb651f0e5aa3718ff67a2a50",
     "url": "/KeiFolio-Portfolio-/static/media/Cards_pic3.5b26c219.jpg"
-  },
-  {
-    "revision": "94dd608c8a59859ddd9990282a7efe17",
-    "url": "/KeiFolio-Portfolio-/static/media/Logo-kei.94dd608c.jpg"
   },
   {
     "revision": "97daed86922455afc2ac28f9d9da88b0",
