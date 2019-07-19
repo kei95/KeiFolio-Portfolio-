@@ -13,7 +13,7 @@ interface State {
     redirect: boolean;
     outAnimation: boolean;
 }
- 
+
 class LoadingPage extends Component<Props, State> {
     constructor(props: Props) {
         super(props);
@@ -35,6 +35,14 @@ class LoadingPage extends Component<Props, State> {
 
     componentWillMount(){
         clearTimeout()
+    }
+
+    onTimeOutRedirect() {
+        this.setState({redirect: true})
+    }
+
+    onTimeOutAnimation() {
+        this.setState({outAnimation: true})
     }
 
     render() {
