@@ -33,11 +33,14 @@
   transition: all .5s;
 }
 
-/* .btn {
-    display: inline-block;
-} */
+h3 {
+  margin-bottom: 0%;
+}
 
 .NavBtnIninit:hover {
-    width: 50%
+    width: 50%;
+    content: "";
+    border-bottom: 5px solid blue;
+    transition-duration: 0.3s;
 }
 
