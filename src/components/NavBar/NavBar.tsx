@@ -62,27 +62,32 @@ class NavBar extends Component<Props, State>{
                 <div className='col-xl-9 mx-auto'>
                 <Navbar  collapseOnSelect variant={this.state.isTop ? "dark" : "light"} expand="lg">
                     <Navbar.Brand href="#section_1"><h1 className={this.state.isTop ? undefined : "text-primary"} >KeiFolio</h1></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Toggle />
+                    <Navbar.Collapse id="justify-content-end">
+
                         <Nav className="ml-auto">
                             <Nav.Link href="#section_1">
                             <span className={this.state.isTop ? "text-white btn" : "text-primary btn"}  >
-                                <h3 className={this.state.currentPage === 'Home' ? 'NavBtn' : "NavBtnIninit nav"} style={{}}>Home</h3>
+                                <h3 style={{}}>Home</h3>
+                                <div className={this.state.currentPage === 'Home' ? 'NavBtn' : "NavBtnIninit nav"} />
                             </span>
                             </Nav.Link>
                             <Nav.Link href="#section_2">
                             <span  className={this.state.isTop ? "text-white btn" : "text-primary btn"}>
-                            <h3 className={this.state.currentPage === 'About' ? 'NavBtn' : "NavBtnIninit nav"}  style={{}}>About</h3>
+                            <h3  style={{}}>About</h3>
+                            <div className={this.state.currentPage === 'About' ? 'NavBtn' : "NavBtnIninit nav"} />
                             </span>
                             </Nav.Link>
                         <Nav.Link href="#section_3">
                             <span  className={this.state.isTop ? "text-white btn" : "text-primary btn"}>
-                            <h3 className={this.state.currentPage === 'Abilities' ? 'NavBtn' : "NavBtnIninit nav"}  style={{}}>Abilities</h3>
+                            <h3   style={{}}>Abilities</h3>
+                            <div className={this.state.currentPage === 'Abilities' ? 'NavBtn' : "NavBtnIninit nav"} />
                             </span>
                             </Nav.Link>
                             <Nav.Link href="#section_4">
                             <span  className={this.state.isTop ? "text-white btn" : "text-primary btn"}>
-                            <h3 className={this.state.currentPage === 'Contact' ? 'NavBtn' : "NavBtnIninit nav"} style={{}}>Contact</h3>
+                            <h3 style={{}}>Contact</h3>
+                            <div className={this.state.currentPage === 'Contact' ? 'NavBtn' : "NavBtnIninit nav"} />
                             </span>
                             </Nav.Link>
                         </Nav>
