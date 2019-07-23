@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KeiFolio-Portfolio-/precache-manifest.a4a688d8d032e743e7d037b649c839f4.js"
+  "/KeiFolio-Portfolio-/precache-manifest.1099b79c7e405c42f5373258b07aa4a7.js"
 );
 
 self.addEventListener('message', (event) => {
