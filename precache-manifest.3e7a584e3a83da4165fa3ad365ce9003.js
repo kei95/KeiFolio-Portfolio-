@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af13ee9d8e8918c80ef50cc54b83c402",
+    "revision": "242a224b4d7c26f0c10ef9f83c63a72b",
     "url": "/KeiFolio-Portfolio-/index.html"
   },
   {
-    "revision": "31615e49d9211cca0fd1",
+    "revision": "975d5e5defefd8c5b91a",
     "url": "/KeiFolio-Portfolio-/static/css/2.65f232cb.chunk.css"
   },
   {
-    "revision": "b99739375480d6ea5584",
+    "revision": "7072d96f4aea2945d285",
     "url": "/KeiFolio-Portfolio-/static/css/main.d095f2e1.chunk.css"
   },
   {
-    "revision": "31615e49d9211cca0fd1",
-    "url": "/KeiFolio-Portfolio-/static/js/2.b8066ce2.chunk.js"
+    "revision": "975d5e5defefd8c5b91a",
+    "url": "/KeiFolio-Portfolio-/static/js/2.4c01727a.chunk.js"
   },
   {
-    "revision": "b99739375480d6ea5584",
-    "url": "/KeiFolio-Portfolio-/static/js/main.1dc0cefc.chunk.js"
+    "revision": "7072d96f4aea2945d285",
+    "url": "/KeiFolio-Portfolio-/static/js/main.d5b0e7f9.chunk.js"
   },
   {
     "revision": "c2d298294244d34b70d3",
