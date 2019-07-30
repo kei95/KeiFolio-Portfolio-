@@ -119,15 +119,6 @@ class Works extends Component<Props> {
                         </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-
-                    <Carousel.Item>
-                            <Youtube
-                            className="Slids d-block w-100"
-                            videoId="hP_wJNjPpn0"
-                            opts={opts}
-                            onReady={this._onReady}
-                            />
-                    </Carousel.Item>
                 </Carousel>
             </div>
         );
