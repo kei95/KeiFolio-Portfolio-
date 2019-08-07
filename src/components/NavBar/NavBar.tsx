@@ -26,7 +26,7 @@ class NavBar extends Component<Props, State>{
 
     componentDidMount() {
         window.onscroll = () => {
-            if(window.pageYOffset === 0){
+            if(window.pageYOffset < 100){
                 this.setState({isTop: true})
             } else {
                 this.setState({isTop: false})
@@ -46,13 +46,11 @@ class NavBar extends Component<Props, State>{
                     break;
                 }
                     }
-            console.log(this.state.currentPage)
         }
     }
 
     componentWillMount() {
         window.onscroll = null;
-         
     }
 
     render(){

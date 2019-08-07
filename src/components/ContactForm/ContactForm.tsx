@@ -5,18 +5,51 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ContactForm.css';
 import { faEnvelope,  } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubAlt } from "@fortawesome/free-brands-svg-icons"
+import axios from 'axios';
 
 
 interface Props{
   getOffsetsFromSctions: any;
 }
 
-class ContactForm extends Component<Props> {
+type myType = {
+  name: string,
+  email: string,
+  message: string
+}
+
+class ContactForm extends Component<Props, myType> {
+  constructor(props: any){
+    super(props)
+    this.handleChange = this.handleChange.bind(this);
+    // this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  state: myType ={
+    name: "",
+    email: "",
+    message: ""
+  }
 
   componentDidMount() {
     var rect = reactDOM.findDOMNode(this)
-this.props.getOffsetsFromSctions(rect.offsetTop)
+    this.props.getOffsetsFromSctions(rect.offsetTop)
 }
+
+  handleChange = (e: any) => {
+    this.setState({[e.target.name]: e.target.value} as any);
+  }
+
+  async onSubmit (e: any) {
+    console.log(this.state)
+    const { name, email, message} = this.state;
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message
+    })
+    this.setState({name: "", email: "", message: ""});
+  }
 
   render() {
     return (
@@ -31,15 +64,15 @@ this.props.getOffsetsFromSctions(rect.offsetTop)
                       <h1 className="Title-Left"> Contact Me </h1>
                       <div className="Border" />
                       <Form.Group controlId="formBasicEmail" style={{ marginBottom: '7%' }}>
-                        <Form.Control type="textarea" placeholder="Name" />
+                        <Form.Control name="name" type="name" onChange={(e) => this.handleChange(e as any)} placeholder="Name" />
                       </Form.Group>
                       <Form.Group controlId="formBasicPassword" style={{ marginBottom: '7%' }}>
-                        <Form.Control type="email" placeholder="Email" />
+                        <Form.Control name="email" type="email" onChange={(e) => this.handleChange(e as any)} placeholder="Email" />
                       </Form.Group>
                       <Form.Group controlId="ControlTextarea">
-                        <Form.Control as="textarea" rows="3" placeholder="Message" />
+                        <Form.Control name="message" as="textarea" type="message" onChange={(e) => this.handleChange(e as any)} rows="3" placeholder="Message" />
                       </Form.Group>
-                      <Button style={{ marginBottom: "10%" }} variant="primary" type="submit">
+                      <Button style={{ marginBottom: "10%" }} onClick={(e) => this.onSubmit(e as any)} type="reset" variant="primary" >
                         Send Message
             </Button>
                     </Form>
