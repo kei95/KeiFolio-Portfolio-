@@ -102,7 +102,7 @@ class Works extends Component<Props> {
                     <div style={{alignContent: 'center'}} className="Border-Ability" />
                 </div>
 
-                <Carousel className="Carousel" interval={100000}>
+                <Carousel interval={null as any}>
                     <Carousel.Item>
                         <img
                         className="Slids d-block w-100"
