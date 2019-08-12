@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './Works.css';
 import reactDOM from 'react-dom';
-import { Carousel, CardDeck, Card } from 'react-bootstrap';
+import { Carousel, CardDeck, Card, Button } from 'react-bootstrap';
 import Youtube from 'react-youtube';
 import MyArt from '../../MyArt1.jpg';
 import MyArt2 from '../../MyArt2.jpg';
 import MyArt3 from '../../MyArt3.jpeg';
-import Card1 from '../../Cards_pic1.jpg';
-import Card2 from '../../Cards_pic2.jpg';
-import Card3 from '../../Cards_pic3.jpg';
+import Card1 from '../../ProjectMS.jpg';
+import Card2 from '../../DrinkerPicker.jpg';
+import Card3 from '../../HireMe.jpg';
 
 interface Props {
     getOffsetsFromSctions: any;
@@ -44,33 +44,48 @@ class Works extends Component<Props> {
 
                 <div className="Cards-Container col-xl-9 mx-auto">
                 <CardDeck>
-                    <Card>
+                    <Card className="card">
+                        <div className="box-shadows">
                         <Card.Img className=" CardImage " variant="top" src={Card1} />
                         <Card.Body>
-                            <Card.Title>Coding</Card.Title>
+                            <Card.Title>ProjectMS</Card.Title>
                             <Card.Text>
-                            Coding is one of the most enjoyable skills that I have. I always forget about the time when I am working on something coding.
+                            Desktop app that aims to increase productivity and focus. 
+                            It provides relaxing music and motivational quotes with an 
+                            adjustable timer.
                             </Card.Text>
+                            <Button variant="primary">Chack the app</Button>
                         </Card.Body>
+                        </div>
                     </Card>
 
                     <Card>
+                    <div className="box-shadows">
                         <Card.Img className=" CardImage " variant="top" src={Card2} />
                         <Card.Body>
-                            <Card.Title>Composing</Card.Title>
+                            <Card.Title>DrinkerPicker</Card.Title>
                             <Card.Text>
-                            Coding and Composing are similar. There is no end. But, It is worth it to spend so much time on this. Because this is what I love.
+                            Mobile game(Number picker) designed for a small number 
+                            of people to use in a party setting for fun. made by
+                            React Native.
                             </Card.Text>
+                            <Button variant="primary">Chack the app</Button>
                         </Card.Body>
+                        </div>
                     </Card>
+
                     <Card>
+                    <div className="box-shadows">
                     <Card.Img className=" CardImage " variant="top" src={Card3} />
                         <Card.Body>
-                            <Card.Title>Photography</Card.Title>
+                            <Card.Title>HireMe</Card.Title>
                             <Card.Text>
-                            Taking photos means that I make memory visible. That makes travel more exciting. Even daily life.
+                            Mobile app to keep track of your resume that you sent to company/organization. 
+                            made by Java(Android studio).
                             </Card.Text>
+                            <Button variant="primary">Chack the app</Button>
                         </Card.Body>
+                        </div>
                     </Card>
                 </CardDeck>
                 </div>
