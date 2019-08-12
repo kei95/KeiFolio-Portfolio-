@@ -35,10 +35,10 @@ class Works extends Component<Props> {
             <div>
 
                 <div className="Title-Ability" >
-                <span style={{textAlign: 'center', fontSize: '3rem'}}>Abilities</span>
-                <p className="Discription-Ability" >Abilities that I have and make my life better. Maybe, others too.</p>
+                <span style={{textAlign: 'center', fontSize: '3rem'}}>Projects</span>
+                <p className="Discription-Ability" >Projects that I worked/work on.</p>
                 <div style={{alignContent: 'center'}} className="Border-Ability" />
-                </div>
+                </div> 
 
 
 
@@ -54,7 +54,9 @@ class Works extends Component<Props> {
                             It provides relaxing music and motivational quotes with an 
                             adjustable timer.
                             </Card.Text>
+                            <a href="https://github.com/kei95/ProjectMS">
                             <Button variant="primary">Chack the app</Button>
+                            </a>
                         </Card.Body>
                         </div>
                     </Card>
@@ -69,7 +71,9 @@ class Works extends Component<Props> {
                             of people to use in a party setting for fun. made by
                             React Native.
                             </Card.Text>
+                            <a href="https://github.com/kei95/DrinkerPicker-ReactNaive-">
                             <Button variant="primary">Chack the app</Button>
+                            </a>
                         </Card.Body>
                         </div>
                     </Card>
@@ -83,7 +87,9 @@ class Works extends Component<Props> {
                             Mobile app to keep track of your resume that you sent to company/organization. 
                             made by Java(Android studio).
                             </Card.Text>
+                            <a href="https://github.com/Rtihai/HireMe">
                             <Button variant="primary">Chack the app</Button>
+                            </a>
                         </Card.Body>
                         </div>
                     </Card>

@@ -78,7 +78,7 @@ class NavBar extends Component<Props, State>{
                             </Nav.Link>
                         <Nav.Link href="#section_3">
                             <span  className={this.state.isTop ? "text-white btn" : "text-primary btn"}>
-                            <h3   style={{}}>Abilities</h3>
+                            <h3   style={{}}>Projects</h3>
                             <div className={this.state.currentPage === 'Abilities' ? 'NavBtn' : "NavBtnIninit nav"} />
                             </span>
                             </Nav.Link>
