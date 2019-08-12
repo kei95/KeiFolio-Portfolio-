@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7cedb0c650d64e2a3a11fcc394971a4",
+    "revision": "2d84a3ccb310e406a758793ba33e2dfe",
     "url": "/KeiFolio-Portfolio-/index.html"
   },
   {
-    "revision": "b3020e4d54984bbd4d10",
+    "revision": "157794e5a50b79ed5363",
     "url": "/KeiFolio-Portfolio-/static/css/2.65f232cb.chunk.css"
   },
   {
-    "revision": "5c2e9ebadcc4a5aafa8e",
-    "url": "/KeiFolio-Portfolio-/static/css/main.a67409e8.chunk.css"
+    "revision": "15733ba5dc4ef6d7c757",
+    "url": "/KeiFolio-Portfolio-/static/css/main.11a65f1a.chunk.css"
   },
   {
-    "revision": "b3020e4d54984bbd4d10",
-    "url": "/KeiFolio-Portfolio-/static/js/2.a6aece48.chunk.js"
+    "revision": "157794e5a50b79ed5363",
+    "url": "/KeiFolio-Portfolio-/static/js/2.500faf7a.chunk.js"
   },
   {
-    "revision": "5c2e9ebadcc4a5aafa8e",
-    "url": "/KeiFolio-Portfolio-/static/js/main.654fe8f0.chunk.js"
+    "revision": "15733ba5dc4ef6d7c757",
+    "url": "/KeiFolio-Portfolio-/static/js/main.f84a057c.chunk.js"
   },
   {
     "revision": "c2d298294244d34b70d3",
@@ -28,16 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KeiFolio-Portfolio-/static/media/Cards_myself.d91db964.png"
   },
   {
-    "revision": "e494c7e7cc7bef93460d300eb202d12c",
-    "url": "/KeiFolio-Portfolio-/static/media/Cards_pic1.e494c7e7.jpg"
+    "revision": "60d52afb89c12d6ca6b4974015192a6b",
+    "url": "/KeiFolio-Portfolio-/static/media/DrinkerPicker.60d52afb.jpg"
   },
   {
-    "revision": "ea9be5e88ea7d9a7a41d4e2b778a08a1",
-    "url": "/KeiFolio-Portfolio-/static/media/Cards_pic2.ea9be5e8.jpg"
-  },
-  {
-    "revision": "5b26c219cb651f0e5aa3718ff67a2a50",
-    "url": "/KeiFolio-Portfolio-/static/media/Cards_pic3.5b26c219.jpg"
+    "revision": "34f62d973cc1fc22d71605b381f75abb",
+    "url": "/KeiFolio-Portfolio-/static/media/HireMe.34f62d97.jpg"
   },
   {
     "revision": "97daed86922455afc2ac28f9d9da88b0",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7411f708a935664347e60f78a696de18",
     "url": "/KeiFolio-Portfolio-/static/media/Portfolio-Pic.7411f708.jpg"
+  },
+  {
+    "revision": "864f0f4bbb9ecb39a04d11ff07a1b75b",
+    "url": "/KeiFolio-Portfolio-/static/media/ProjectMS.864f0f4b.jpg"
   },
   {
     "revision": "38975343b586296e9b73e6b56cc3ec5d",
