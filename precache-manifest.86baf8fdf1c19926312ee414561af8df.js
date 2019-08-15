@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b9b542823e6b5128f488726e289fcb2",
+    "revision": "06dd910658d8dbcd07ae4bd2aea92f5c",
     "url": "/KeiFolio-Portfolio-/index.html"
   },
   {
-    "revision": "157794e5a50b79ed5363",
+    "revision": "e8b5ef954f1847fd6533",
     "url": "/KeiFolio-Portfolio-/static/css/2.65f232cb.chunk.css"
   },
   {
-    "revision": "3d6631bacbf57543e5a6",
+    "revision": "dcdaba1190848284c80a",
     "url": "/KeiFolio-Portfolio-/static/css/main.11a65f1a.chunk.css"
   },
   {
-    "revision": "157794e5a50b79ed5363",
-    "url": "/KeiFolio-Portfolio-/static/js/2.500faf7a.chunk.js"
+    "revision": "e8b5ef954f1847fd6533",
+    "url": "/KeiFolio-Portfolio-/static/js/2.6c1ca3b8.chunk.js"
   },
   {
-    "revision": "3d6631bacbf57543e5a6",
-    "url": "/KeiFolio-Portfolio-/static/js/main.174a0ec9.chunk.js"
+    "revision": "dcdaba1190848284c80a",
+    "url": "/KeiFolio-Portfolio-/static/js/main.8decfe77.chunk.js"
   },
   {
     "revision": "c2d298294244d34b70d3",
     "url": "/KeiFolio-Portfolio-/static/js/runtime~main.9a2f3add.js"
+  },
+  {
+    "revision": "31052093160cc6b53abe933350cb0ed7",
+    "url": "/KeiFolio-Portfolio-/static/media/Base.31052093.jpg"
   },
   {
     "revision": "d91db964c5bcf7249bdfcf2c22c0cffb",
