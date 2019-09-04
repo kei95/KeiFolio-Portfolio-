@@ -112,8 +112,8 @@ class Works extends Component<Props> {
                 </div>
 
                 <div className="Title-Ability" >
-                    <span style={{ textAlign: 'center', fontSize: '3rem' }}>Works</span>
-                    <p className="Discription-Ability" >Works that I love and proud of.</p>
+                    <span style={{ textAlign: 'center', fontSize: '3rem' }}>Arts</span>
+                    <p className="Discription-Ability" >Arts that I created.</p>
                     <div style={{ alignContent: 'center' }} className="Border-Ability" />
                 </div>
 
