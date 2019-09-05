@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7022212f21a20db4ab4b44e8bbf854f1",
+    "revision": "9de74cf83a74767b3a43225b295fd74f",
     "url": "/KeiFolio-Portfolio-/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KeiFolio-Portfolio-/static/css/2.65f232cb.chunk.css"
   },
   {
-    "revision": "7cd887d724987573b001",
+    "revision": "e4d4caba12dea0e13ab8",
     "url": "/KeiFolio-Portfolio-/static/css/main.11a65f1a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KeiFolio-Portfolio-/static/js/2.6c1ca3b8.chunk.js"
   },
   {
-    "revision": "7cd887d724987573b001",
-    "url": "/KeiFolio-Portfolio-/static/js/main.04892a71.chunk.js"
+    "revision": "e4d4caba12dea0e13ab8",
+    "url": "/KeiFolio-Portfolio-/static/js/main.671a86a7.chunk.js"
   },
   {
     "revision": "c2d298294244d34b70d3",
