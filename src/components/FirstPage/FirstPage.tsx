@@ -24,7 +24,7 @@ class FirstPage extends Component<Props> {
                 <Row className="FirstPageContainer">
                     <Col className="ml-5 p-0 Content" xs={12} md={7}>
                         <Animated className="col-12 animation-Wrapper" animationInDelay={500} animationIn="slideInLeft" animationInDuration={1200} animationOut="fadeOut" isVisible={true}>
-                            <p className="m-0 Title-Firstpg">Welcome,<br />World</p>
+                            <p className="m-0 Title-Firstpg">Hello World</p>
                         </Animated>
                     </Col>
                 </Row>
